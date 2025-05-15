@@ -3,3 +3,8 @@
 body{
     background: white;
 }
+.icon-header{
+    color: white;
+    margin-right: 10px;
+    text-transform: lowercase;
+}
