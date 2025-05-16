@@ -33,7 +33,7 @@ const action = ['se comio', 'rompio', ' se guardo', 'volo'];
 const what = ['mi trabajo', 'mi tabaco', 'el sombrero', 'el arbol'];
 const when = ['despues de clase de violin', 'cuando yo paseaba por el prado', 'mientras hacia ejercicio desnudo', 'durante la comida de la sagrada familia'];
 const historial_excusas = [];
-const textarea = document.getElementById('historial-excusas');
+const textarea = document.getElementById("historial-excusas");
 const imprimir_excusa = document.getElementById('excuse-save');
 
 
@@ -45,7 +45,7 @@ function numAleatorioArray(posicion) { // he añadido una funcion
 }
 
 
-document.getElementById('generar-excusa').addEventListener('click', function () {
+document.getElementById("generar-excusa").addEventListener('click', function () {
 
 
 //MI CÓDIGO ANTIGUO
@@ -68,7 +68,7 @@ document.getElementById('generar-excusa').addEventListener('click', function () 
 
 
 
-document.getElementById('eliminar-excusa').addEventListener('click', function () {
+document.getElementById("eliminar-excusa").addEventListener('click', function () {
 
   if (historial_excusas.length > 0) {
     historial_excusas.pop();
